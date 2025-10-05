@@ -1,0 +1,45 @@
+*{
+    text-align: center;
+    
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    transition: background-color 0.3s ease;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: solid white;
+    margin: 2.5rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    background-color: red;
+    
+}
+.btn:hover{
+    box-shadow: 2px 2px 20px white;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.purple{
+    background-color: purple;
+}
+.flash{
+    background-color: blue;
+}
+#maxscore{
+    color: white;
+}
